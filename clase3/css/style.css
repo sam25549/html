@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap');
+
+body {
+    /* background es una cosa que tiene diferentes propiedades como
+    imagen, posicion, entre otras */
+    background: linear-gradient(to right, #150131, #594d63);;
+    color: #eac7fb;
+    /* si pones mas de una tipografia con commas
+    significa que, si el sistema no tiene una, use la otra */
+    font-family: 'Archivo Black', Markazi; 
+    /* el minimo de tamaño de tipografia es 14px */
+    font-size: 14px;
+    text-align: left;
+    /* es para que no se pueda scrollear de derecha a izquierda */
+    overflow-x: hidden;
+    
+}
+
+main {
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(255, 252, 252, 0.1);
+}
+
+li {
+    /* este es porque los acomoda automatica en lista */
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+/* esta es una clase en css */
+.container {
+    width: 100%;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    max-width: 1024px;
+
+    margin: 0 auto;
+}
+
+
+h1 {
+    /* EM es una unidad de medida que toma el mismo tamaño de su padre
+    en este caso main y si pones REM es del anterior, o sea body
+    2em es 32*/
+    font-size: 2em;
+    text-align: center;
+    color: #c361ff;
+    font-family: 'Archivo Black', Aldrich; 
+    text-transform: uppercase;
+}
